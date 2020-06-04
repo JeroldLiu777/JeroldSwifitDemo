@@ -7,13 +7,15 @@
 //
 
 import UIKit
-
+import Kingfisher
 
 
 class TestOneCell: UITableViewCell {
     func commonInit() -> Void {
         self.contentView.addSubview(self.imageViewOne)
         self.contentView.addSubview(self.titleLabel)
+        let url = URL(string: "https://a0.att.hudong.com/64/76/20300001349415131407760417677.jpg")
+        self.imageViewOne.kf.setImage(with: url)
     }
     
     override func awakeFromNib() {
