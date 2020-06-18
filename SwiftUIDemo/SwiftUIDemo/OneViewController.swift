@@ -41,7 +41,7 @@ class OneViewController: UIViewController,UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        //之所以要用变量而且是加问号的,
+        //之所以要用变量而且是加问号的,是因为可能是nil, 并且才能使用if来判断是否为nil
         var cell:TestOneCell? = tableView.dequeueReusableCell(withIdentifier: cellIdentifierOne) as? TestOneCell
         if cell == nil {
             cell = TestOneCell.init()

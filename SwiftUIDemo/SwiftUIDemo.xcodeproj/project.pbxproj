@@ -22,6 +22,7 @@
 		4BB55E4624848D5400CB694B /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB55E4524848D5400CB694B /* SwiftUIDemoUITests.swift */; };
 		4BB55E5424848E5400CB694B /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB55E5324848E5400CB694B /* OneViewController.swift */; };
 		4BB55E572484EB4C00CB694B /* playgroundForTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB55E562484EB4C00CB694B /* playgroundForTest.swift */; };
+		EA01AD6624911FDF001FF4B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA01AD6524911FDF001FF4B0 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		4BB55E4724848D5400CB694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BB55E5324848E5400CB694B /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		4BB55E562484EB4C00CB694B /* playgroundForTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgroundForTest.swift; sourceTree = "<group>"; };
+		EA01AD6524911FDF001FF4B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		4BB55E1724848D5400CB694B = {
 			isa = PBXGroup;
 			children = (
+				EA01AD6524911FDF001FF4B0 /* Default-568h@2x.png */,
 				4BB55E2224848D5400CB694B /* SwiftUIDemo */,
 				4BB55E3924848D5400CB694B /* SwiftUIDemoTests */,
 				4BB55E4424848D5400CB694B /* SwiftUIDemoUITests */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB55E3024848D5400CB694B /* LaunchScreen.storyboard in Resources */,
+				EA01AD6624911FDF001FF4B0 /* Default-568h@2x.png in Resources */,
 				4BB55E2D24848D5400CB694B /* Assets.xcassets in Resources */,
 				4BB55E2B24848D5400CB694B /* Main.storyboard in Resources */,
 			);
@@ -474,13 +478,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76GWNQM659;
+				DEVELOPMENT_TEAM = F669MTZUFU;
 				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerold.SwiftUIDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerold.SwiftUIDemoNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,13 +496,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76GWNQM659;
+				DEVELOPMENT_TEAM = F669MTZUFU;
 				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerold.SwiftUIDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerold.SwiftUIDemoNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
